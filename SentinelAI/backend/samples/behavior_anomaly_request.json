@@ -1,0 +1,11 @@
+{
+  "user_identifier": "analyst.soc@example.gov",
+  "login_time": "2026-07-03T23:42:00Z",
+  "location": "untrusted foreign vpn",
+  "ip": "8.8.8.8",
+  "failed_login_count": 7,
+  "usb_activity": true,
+  "download_size": 420.5,
+  "file_access": 188,
+  "process_creation": 64
+}

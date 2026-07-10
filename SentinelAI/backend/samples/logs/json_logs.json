@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2026-07-03T08:35:15Z",
+    "event_type": "cloud_login",
+    "severity": "high",
+    "message": "Impossible travel sign-in detected.",
+    "hostname": "idp-prod",
+    "username": "government.officer@example.gov",
+    "ip": "198.51.100.77",
+    "action": "login",
+    "outcome": "blocked"
+  },
+  {
+    "timestamp": "2026-07-03T08:38:20Z",
+    "event_type": "api_token_created",
+    "severity": "info",
+    "message": "Service account token created.",
+    "hostname": "cloud-control-plane",
+    "username": "svc-ci"
+  }
+]

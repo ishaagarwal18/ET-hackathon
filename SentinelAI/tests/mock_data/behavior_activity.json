@@ -1,0 +1,12 @@
+{
+  "tenant_id": "tenant-red",
+  "user_identifier": "analyst@example.gov",
+  "login_time": "2026-07-06T23:14:00Z",
+  "location": "unknown vpn exit node",
+  "ip": "8.8.8.8",
+  "failed_login_count": 7,
+  "usb_activity": true,
+  "download_size": 512.5,
+  "file_access": 220,
+  "process_creation": 73
+}

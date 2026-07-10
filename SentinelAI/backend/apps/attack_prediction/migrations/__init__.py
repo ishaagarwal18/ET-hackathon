@@ -1,0 +1,1 @@
+"""Attack prediction migrations package."""

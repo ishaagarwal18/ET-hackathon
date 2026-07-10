@@ -1,0 +1,17 @@
+{
+  "risk_level": "critical",
+  "incident": {
+    "incident_id": "INC-9001",
+    "user_id": "compromised.admin@example.gov",
+    "ip": "203.0.113.45",
+    "process_name": "powershell.exe",
+    "device_id": "fin-workstation-12",
+    "vm_id": "vm-prod-finance-07",
+    "summary": "High-confidence ransomware precursor activity with credential abuse and suspicious script execution."
+  },
+  "approval": {
+    "approved": true,
+    "approved_by": "security.admin@example.gov",
+    "reason": "Critical containment simulation approved for analyst validation."
+  }
+}

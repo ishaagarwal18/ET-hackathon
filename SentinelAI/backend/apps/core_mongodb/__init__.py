@@ -1,0 +1,1 @@
+"""Core MongoDB operational app."""

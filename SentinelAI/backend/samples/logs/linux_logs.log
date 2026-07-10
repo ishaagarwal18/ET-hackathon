@@ -1,0 +1,2 @@
+Jul  3 08:21:05 web-01 sshd[1842]: Failed password for invalid user admin from 203.0.113.45 port 51102 ssh2
+Jul  3 08:24:41 web-01 sudo[1870]: pam_unix(sudo:session): session opened for user root by deploy(uid=1001)

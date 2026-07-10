@@ -1,0 +1,49 @@
+{
+  "tenant_id": "tenant-red",
+  "formats": ["json", "csv"],
+  "classification": "restricted",
+  "executive_summary": "A suspicious valid-account intrusion was detected and contained.",
+  "incident": {
+    "incident_id": "INC-2026-0706-001",
+    "title": "Suspicious valid account intrusion",
+    "severity": "high",
+    "status": "contained"
+  },
+  "risk_score": {
+    "score": 88,
+    "level": "high"
+  },
+  "timeline": [
+    {
+      "timestamp": "2026-07-06T10:15:00Z",
+      "description": "Anomalous authentication detected."
+    }
+  ],
+  "mitre_mapping": [
+    {
+      "technique_id": "T1078",
+      "technique_name": "Valid Accounts",
+      "tactic": "Initial Access"
+    }
+  ],
+  "affected_assets": [
+    {
+      "asset_id": "srv-auth-01",
+      "name": "Authentication Server",
+      "criticality": "critical"
+    }
+  ],
+  "response_actions": [
+    {
+      "action": "Disable User",
+      "status": "simulated",
+      "details": "User disable action queued for approval."
+    }
+  ],
+  "recommendations": [
+    {
+      "priority": "high",
+      "description": "Enforce phishing-resistant MFA and revoke active sessions."
+    }
+  ]
+}

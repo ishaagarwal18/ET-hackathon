@@ -1,0 +1,19 @@
+
+> sentinelai-frontend@1.0.0 dev
+> vite --host 127.0.0.1
+
+
+  VITE v6.4.3  ready in 525 ms
+
+  ➜  Local:   http://127.0.0.1:5173/
+12:33:21 am [vite] (client) ✨ new dependencies optimized: axios
+12:33:21 am [vite] (client) ✨ optimized dependencies changed. reloading
+1:03:55 am [vite] (client) hmr update /src/routes/AppRoutes.jsx, /src/styles/index.css
+1:03:55 am [vite] (client) hmr update /src/components/layout/Sidebar.jsx, /src/styles/index.css
+1:03:55 am [vite] (client) hmr update /src/styles/index.css
+1:03:55 am [vite] (client) hmr update /src/routes/AppRoutes.jsx, /src/styles/index.css
+1:06:22 am [vite] (client) ✨ new dependencies optimized: reactflow
+1:06:22 am [vite] (client) ✨ optimized dependencies changed. reloading
+1:22:22 am [vite] (client) hmr update /src/routes/AppRoutes.jsx, /src/styles/index.css
+1:22:22 am [vite] (client) hmr update /src/components/layout/Sidebar.jsx, /src/styles/index.css
+1:22:22 am [vite] (client) hmr update /src/routes/AppRoutes.jsx, /src/styles/index.css

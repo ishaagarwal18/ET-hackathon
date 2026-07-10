@@ -1,0 +1,1 @@
+"""Simulated incident response actions."""

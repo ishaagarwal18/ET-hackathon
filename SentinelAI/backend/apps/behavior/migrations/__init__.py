@@ -1,0 +1,1 @@
+"""Behavior app migrations package."""

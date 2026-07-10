@@ -1,0 +1,14 @@
+{
+  "risk_level": "medium",
+  "incident": {
+    "incident_id": "INC-4102",
+    "user_id": "suspicious.user@example.gov",
+    "ip": "198.51.100.77",
+    "process_name": "rundll32.exe",
+    "device_id": "ops-laptop-22",
+    "summary": "Suspicious endpoint execution with elevated behavioral anomaly score."
+  },
+  "approval": {
+    "approved": false
+  }
+}

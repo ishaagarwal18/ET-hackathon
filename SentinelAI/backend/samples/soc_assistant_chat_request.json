@@ -1,0 +1,11 @@
+{
+  "message": "Explain this critical alert and recommend mitigation for suspected valid account abuse.",
+  "context": {
+    "alert_id": "ALT-9012",
+    "severity": "critical",
+    "title": "Impossible travel and privileged login anomaly",
+    "mitre_technique": "T1078 Valid Accounts",
+    "affected_user": "admin@example.gov",
+    "affected_assets": ["auth-server-01", "customer-data-vault"]
+  }
+}

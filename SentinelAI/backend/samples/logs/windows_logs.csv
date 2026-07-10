@@ -1,0 +1,3 @@
+TimeCreated,EventID,Level,Computer,User,Process Name,Task Category,Keywords,Message
+2026-07-03 08:12:44,4625,Audit Failure,WIN-DC-01,ACME\j.smith,lsass.exe,Logon,Audit Failure,An account failed to log on.
+2026-07-03 08:17:19,4688,Information,WIN-APP-04,ACME\svc-backup,powershell.exe,Process Creation,Audit Success,A new process has been created.

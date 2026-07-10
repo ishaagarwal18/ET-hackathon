@@ -1,0 +1,25 @@
+[run]
+branch = True
+source = backend
+omit =
+    */migrations/*
+    */tests.py
+    */__pycache__/*
+    backend/manage.py
+    backend/config/asgi.py
+    backend/config/wsgi.py
+
+[report]
+show_missing = True
+skip_covered = True
+fail_under = 55
+exclude_lines =
+    pragma: no cover
+    if TYPE_CHECKING:
+    if __name__ == .__main__.:
+
+[html]
+directory = coverage/backend-html
+
+[xml]
+output = coverage/backend-coverage.xml

@@ -1,0 +1,3 @@
+timestamp,event_type,severity,hostname,user,ip_address,process,message,action,outcome
+2026-07-03 08:42:09,endpoint_detection,critical,fin-workstation-12,m.patel,10.20.8.41,rundll32.exe,Suspicious DLL execution detected,execute,blocked
+2026-07-03 08:44:33,email_security,medium,mail-gateway-02,a.rao,10.20.2.8,mailfilter,Phishing attachment quarantined,quarantine,success

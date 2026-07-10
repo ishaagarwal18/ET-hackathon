@@ -1,0 +1,81 @@
+{
+  "formats": ["pdf", "csv", "json"],
+  "classification": "internal",
+  "executive_summary": "SentinelAI identified a high-confidence compromise involving valid account abuse, suspicious PowerShell execution, and attempted data staging. The incident was contained through simulated response actions and requires credential rotation, endpoint isolation review, and control hardening.",
+  "incident": {
+    "incident_id": "INC-2407",
+    "title": "Privileged Account Compromise",
+    "severity": "critical",
+    "status": "containment",
+    "owner": "SOC Lead"
+  },
+  "risk_score": {
+    "score": 91,
+    "level": "critical",
+    "rationale": "Critical identity risk, suspicious execution activity, affected privileged asset, and active containment state."
+  },
+  "timeline": [
+    {
+      "timestamp": "2026-07-05T08:10:00Z",
+      "description": "Impossible travel login detected for privileged account."
+    },
+    {
+      "timestamp": "2026-07-05T08:18:00Z",
+      "description": "Encoded PowerShell execution observed on finance workstation."
+    },
+    {
+      "timestamp": "2026-07-05T08:31:00Z",
+      "description": "Large file access pattern detected against sensitive share."
+    }
+  ],
+  "mitre_mapping": [
+    {
+      "technique_id": "T1078",
+      "technique_name": "Valid Accounts",
+      "tactic": "Defense Evasion, Persistence, Privilege Escalation, Initial Access"
+    },
+    {
+      "technique_id": "T1059",
+      "technique_name": "Command and Scripting Interpreter",
+      "tactic": "Execution"
+    }
+  ],
+  "affected_assets": [
+    {
+      "asset_id": "AST-1044",
+      "name": "finance-workload-07",
+      "criticality": "critical"
+    },
+    {
+      "asset_id": "AST-1181",
+      "name": "customer-data-vault",
+      "criticality": "critical"
+    }
+  ],
+  "response_actions": [
+    {
+      "action": "block_ip",
+      "status": "simulated_success",
+      "details": "Simulated firewall block for malicious source IP."
+    },
+    {
+      "action": "disable_user",
+      "status": "approval_required",
+      "details": "User disablement requires security admin approval."
+    }
+  ],
+  "recommendations": [
+    {
+      "priority": "critical",
+      "description": "Rotate credentials for affected privileged account and revoke active sessions."
+    },
+    {
+      "priority": "high",
+      "description": "Review PowerShell execution policy and endpoint process telemetry."
+    },
+    {
+      "priority": "medium",
+      "description": "Run access review for sensitive finance data repositories."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "anomaly": {
+    "anomaly_score": 0.86,
+    "risk_score": 91
+  },
+  "mitre_technique": "T1078 Valid Accounts",
+  "current_stage": "initial_access",
+  "previous_activities": [
+    "Impossible travel from VPN endpoint",
+    "Unusual login from new device",
+    "Multiple failed login attempts"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "overview": "/api/v1/dashboard/overview/",
+  "active_alerts": "/api/v1/dashboard/active-alerts/",
+  "risk_score": "/api/v1/dashboard/risk-score/",
+  "assets": "/api/v1/dashboard/assets/",
+  "incidents": "/api/v1/dashboard/incidents/",
+  "top_vulnerabilities": "/api/v1/dashboard/top-vulnerabilities/?limit=10",
+  "recent_logs": "/api/v1/dashboard/recent-logs/?limit=20",
+  "attack_timeline": "/api/v1/dashboard/attack-timeline/?hours=24",
+  "threat_map": "/api/v1/dashboard/threat-map/?limit=25"
+}

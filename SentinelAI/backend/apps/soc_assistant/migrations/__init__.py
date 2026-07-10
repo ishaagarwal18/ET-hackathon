@@ -1,0 +1,1 @@
+"""SOC Assistant migrations package."""

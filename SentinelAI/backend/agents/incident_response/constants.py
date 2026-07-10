@@ -1,0 +1,23 @@
+"""Constants for Autonomous Incident Response."""
+
+RISK_LEVELS = ("low", "medium", "critical")
+
+ACTION_DISABLE_USER = "disable_user"
+ACTION_BLOCK_IP = "block_ip"
+ACTION_KILL_PROCESS = "kill_process"
+ACTION_DISCONNECT_DEVICE = "disconnect_device"
+ACTION_SNAPSHOT_VM = "snapshot_vm"
+
+SUPPORTED_ACTIONS = (
+    ACTION_DISABLE_USER,
+    ACTION_BLOCK_IP,
+    ACTION_KILL_PROCESS,
+    ACTION_DISCONNECT_DEVICE,
+    ACTION_SNAPSHOT_VM,
+)
+
+APPROVAL_REQUIRED_ACTIONS = {
+    ACTION_DISABLE_USER,
+    ACTION_DISCONNECT_DEVICE,
+    ACTION_SNAPSHOT_VM,
+}

@@ -1,0 +1,5 @@
+{
+  "tenant_id": "tenant-red",
+  "source_type": "json",
+  "content": "{\"timestamp\":\"2026-07-06T10:15:00Z\",\"level\":\"error\",\"message\":\"Privilege escalation attempt\",\"hostname\":\"srv-auth-01\",\"ip\":\"10.10.1.24\",\"user\":\"svc-backup\",\"event_type\":\"auth_failure\"}"
+}
